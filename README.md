@@ -28,6 +28,7 @@ Please follow [the official wiki](https://wiki.archlinux.org/index.php/Archiso).
 
 Love the setup but not a Mainland China user? We don't release general disk image currently, but it's easy to create one:
 
+- Install [`archiso`](https://www.archlinux.org/packages/extra/any/archiso/) package
 - Revert timezone to `/usr/share/zoneinfo/UTC` in [`/etc/localtime`](airootfs/root/customize_airootfs.sh#L9)
 - Remove `zh_CN.UTF-8` from [`/etc/locale.gen`](airootfs/root/customize_airootfs.sh#L6)
 - Revert locate to `en_US.UTF-8` in [`airootfs/etc/locale.conf`](airootfs/etc/locale.conf)
