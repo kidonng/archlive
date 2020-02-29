@@ -2,6 +2,8 @@
 
 A better Arch Linux Live/Rescue CD, built with [Archiso](https://wiki.archlinux.org/index.php/Archiso).
 
+![Screenshot](https://user-images.githubusercontent.com/44045911/75601974-bcdb4800-5afb-11ea-83b4-0ebc5abee2d8.png)
+
 ## Features
 
 - **`releng` profile based**: familiar tools from official Arch Linux ISO
