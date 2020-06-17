@@ -1,6 +1,6 @@
 # Archlive
 
-A better Arch Linux Live/Rescue CD, built with [Archiso](https://wiki.archlinux.org/index.php/Archiso).
+Arch Linux Live/Rescue CD with quality of life features, built with [Archiso](https://wiki.archlinux.org/index.php/Archiso).
 
 ![Screenshot](https://user-images.githubusercontent.com/44045911/75601974-bcdb4800-5afb-11ea-83b4-0ebc5abee2d8.png)
 
@@ -28,7 +28,7 @@ Please follow [the official wiki](https://wiki.archlinux.org/index.php/Archiso).
 
 ### Example: Remove Chinese goodies
 
-Love the setup but not a Mainland China user? We don't release general disk image currently, but it's easy to create one:
+Love the setup but not a Mainland China user? There is no patch file currently, but it's easy to manually remove them:
 
 - Install [`archiso`](https://www.archlinux.org/packages/extra/any/archiso/) package
 - Revert timezone to `/usr/share/zoneinfo/UTC` in [`/etc/localtime`](airootfs/root/customize_airootfs.sh#L9)
